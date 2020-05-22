@@ -10,8 +10,8 @@ Proprietary content. ©Great Learning. All Rights Reserved. Unauthorized use or 
 
 ## Steps and tasks:
 1. Read and explore the given dataset. (Rename column/add headers, plot histograms, find data characteristics)
-2. Take a subset of the dataset to make it less sparse/ denser. ( For example, keep the users only who has given 50 or more number of ratings ) - (3 Marks)
-3. Split the data randomly into train and test dataset. ( For example, split it in 70/30 ratio)
+2. Take a subset of the dataset to make it less sparse/ denser. ( For example, keep the users only who has given 50 or more number of ratings )
+3. Split the data randomly into train and test dataset( For example, split it in 70/30 ratio)
 4. Build Popularity Recommender model.
 5. Build Collaborative Filtering model.
 6. Evaluate both the models. ( Once the model is trained on the training data, it can be used to compute the error (RMSE) on predictions made on the test data.)
