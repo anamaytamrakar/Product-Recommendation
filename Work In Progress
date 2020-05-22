@@ -1,0 +1,10 @@
+## Obsevations and Improvements
+- Popularity and collaborative filtering models built correctly.
+- Taking the subset of the data step is missed.
+- Need to use below code snippet to make the data less sparse/more dense 
+  counts = df['user_id'].value_counts() 
+  df_final = df[df['user_id'].isin(counts[counts >= 50].index)] 
+- Will try to build collaborative filtering with the mathematical approaches(SVD,cosine_similarity) instead of using any packages. 
+- This will help to understand the concepts clearly. 
+- RMSE score is little high which indicated model is not a best fit. 
+- Will Use SVD or Cosine_similarity techniques to built the model and compare the RMSE score.
